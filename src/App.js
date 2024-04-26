@@ -1,7 +1,12 @@
 import React from 'react'
+import EditTabName from './components/EditTabName'
+import DisplayPost from './components/DisplayPost'
 
 export default function App() {
     return (
-        <div>App</div>
+        <div>
+            {/* <EditTabName /> */}
+            <DisplayPost />
+        </div>
     )
 }
